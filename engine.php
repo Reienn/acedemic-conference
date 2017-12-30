@@ -4,9 +4,9 @@
 
         var $conn;
 		
-        function aktualnosci(){ //konstruktor - połączenie z bazą
-            $this->conn = mysqli_connect('localhost','root','','xkkk');
-			if (!$this->conn) {die("Błąd połączenia z bazą danych.");}
+        function aktualnosci(){ //connecting with database
+            $this->conn = mysqli_connect('localhost','db_user','db_password','db_name');
+			if (!$this->conn) {die("Error. Could not connect with database.");}
 			return $this->conn;
         }
 
@@ -20,7 +20,7 @@
         }
 
 		function skomentuj($autor,$mail,$url,$tresc,$news){
-           mysqli_query($this->conn, 'insert into komentarze (autor, mail, url, tresc, news) values(\''.$autor.'\',\''.$mail.'\',\''.$url.'\',\''.$tresc.'\',\''.$news.'\');') or die("Błąd. Nie dodano komentarza.");
+           mysqli_query($this->conn, 'insert into komentarze (autor, mail, url, tresc, news) values(\''.$autor.'\',\''.$mail.'\',\''.$url.'\',\''.$tresc.'\',\''.$news.'\');') or die("Error. Could not add a comment.");
 		}
 
 	}

@@ -1,5 +1,5 @@
 <div class="container-fluid text-center withlogo">
-			<h2>PARTNERZY</h2><br>
+			<h2>PARTNERS</h2><br>
 			<div class="row is-flex">
 				<div class="col-sm-3 col-xs-6">
 				  <span class="glyphicon glyphicon-leaf"></span>
@@ -52,7 +52,7 @@
 			</div>
 		</div>
 		<div class="container-fluid text-center withlogo">
-			<h2>SPONSORZY</h2><br>
+			<h2>SPONSORS</h2><br>
 			<div class="row is-flex">
 				<div class="col-sm-3 col-xs-6">
 				  <span class="glyphicon glyphicon-leaf"></span>
@@ -89,10 +89,10 @@
 			</div>
 		</div>
 		<footer class="container-fluid text-center">
-			<h2>Kontakt</h2>
+			<h2>Contact</h2>
 			<p>konf.kognitywistyczna@gmail.com</p>
 			<a href="#" class="fa fa-facebook-official"></a><br><br>
-			<p>© 2018 KRAKOWSKA KONFERENCJA KOGNITYWISTYCZNA</p>
+			<p>© 2018 CRACOW COGNITIVE SCIENCE CONFERENCE</p>
 		</footer>
 		<button class="btn btn-link" id="upButton"><a href="#top" title="Do góry"><span class="glyphicon glyphicon-chevron-up"></span></a></button>
 		<script>

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-	<?php $title = "Program - X Krakowska Konferencja Kognitywistyczna"; include 'up.php';?>
+	<?php $title = "Program - X Cracow Cognitive Science Conference"; include 'up.php';?>
 	
 		<div class="container-fluid text-center" id="program">
 			<h2>PROGRAM</h2><br>
@@ -8,7 +8,7 @@
 			  <table class="table table-hover table-bordered">
 				<thead>
 				  <tr>
-					<th colspan="2">Sobota</th>
+					<th colspan="2">Saturday</th>
 				  </tr>
 				</thead>
 				<tbody>
@@ -43,7 +43,7 @@
 				</tbody>
 				<thead>
 				  <tr>
-					<th colspan="2">Niedziela</th>
+					<th colspan="2">Sunday</th>
 				  </tr>
 				</thead>
 				<tbody>

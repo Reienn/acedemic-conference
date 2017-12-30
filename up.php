@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pl-PL">
+<html lang="en">
 	<head>
 		<title><?php echo $title; ?></title>
 		<meta charset="UTF-8">
@@ -10,7 +10,6 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 		<link href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed" rel="stylesheet">
 		<link rel="stylesheet" href="style.css"/>
-		<link rel="icon" type="image/png" href="favicon.ico">
 	</head>
 	<body>
 		<nav class="navbar navbar-default navbar-fixed-top">
@@ -21,25 +20,25 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>                        
 				  </button>
-				  <a class="navbar-brand" href="index.php">X KKK</a>
+				  <a class="navbar-brand" href="index.php">X CCC</a>
 				</div>
 				<div class="collapse navbar-collapse navbar-right" id="showNavbar">
 				  <ul class="nav navbar-nav">
 					<li class="dropdown">
-					  <a class="dropdown-toggle" data-toggle="dropdown">KONFERENCJA<span class="caret"></span></a>
+					  <a class="dropdown-toggle" data-toggle="dropdown">CONFERENCE<span class="caret"></span></a>
 					  <ul class="dropdown-menu">
 						<li><a href="program.php#program">PROGRAM</a></li>
-						<li><a href="organizatorzy.php#komitet-organizacyjny">KOMITET ORGANIZACYJNY</a></li>
-						<li><a href="organizatorzy.php#komitet-naukowy">KOMITET NAUKOWY</a></li>
-						<li><a href="index.php#panele">PANELE</a></li>
-						<li><a href="index.php#goscie">GOŚCIE SPECJALNI</a></li>
-						<li><a href="index.php#warsztaty">WARSZTATY</a></li>
+						<li><a href="organisers.php#organising-committee">ORGANISING COMMITTEE</a></li>
+						<li><a href="organisers.php#scientific-committee">SCIENTIFIC COMMITTEE</a></li>
+						<li><a href="index.php#panels">PANELS</a></li>
+						<li><a href="index.php#guests">SPECIAL GUESTS</a></li>
+						<li><a href="index.php#workshops">WORKSHOPS</a></li>
 					  </ul>
 					</li>
-					<li><a href="aktualnosci.php#aktualnosci">AKTUALNOŚCI</a></li>
-					<li><a href="rejestracja.php#rejestracja">REJESTRACJA</a></li>
+					<li><a href="news.php#news">NEWS</a></li>
+					<li><a href="registration.php#registration">REGISTRATION</a></li>
 					<li><a href="faq.php#faq">FAQ</a></li>
-					<li><a href="galeria.php#galeria">GALERIA</a></li>	
+					<li><a href="gallery.php#gallery">GALLERY</a></li>	
 				  </ul>
 				</div>
 			</div>
@@ -52,13 +51,13 @@
 					<span class="bigx">X</span>
 				</div>
 				<div class="col-xs-5">
-					<a href="index.php"><h1>Krakowska<br>Konferencja<br>Kognitywistyczna</h1></a>
+					<a href="index.php"><h1>CRACOW<br>COGNITIVE&nbsp;SCIENCE<br>CONFERENCE</h1></a>
 				</div>
 			</div>
 			<div class="row subtitle">
 				<div class="col-xs-7">
-					<h2>NOWE&nbsp;TECHNOLOGIE</h2>
-					<p>DD.MM.2018</p>
+					<h2>TECHNOLOGY</h2>
+					<p>12-13.05.2018</p>
 				</div>
 			</div>
 		</div>
