@@ -15,10 +15,11 @@ a:link{
     color: #ffffff;
 	font-family: 'Ubuntu Condensed', sans-serif;
 	background-color: #00092C;
-	background-image: url("bg.svg");
-	background-repeat: no-repeat;
-	background-position: center top;
-	background-size: cover;
+	background-image: url("bg3.svg"), url("bg2.png"), url("bg1.svg");
+	background-repeat: no-repeat, no-repeat, no-repeat;
+	background-position: center bottom, right top, center bottom;
+	background-size: cover, contain, cover;
+	background-attachment: fixed, scroll, fixed;
 	padding: 8%;
 }
 
