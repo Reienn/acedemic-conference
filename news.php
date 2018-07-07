@@ -6,7 +6,7 @@
 
 <!DOCTYPE html>
 <html>
-	<?php $title = "NEWS - X Cracow Cognitive Science Conference"; include 'up.php'; ?>
+	<?php $title = "NEWS - X Lorem Ipsum Conference"; include 'up.php'; ?>
 	
 		<div class="container-fluid" id="news">
 			<?php 

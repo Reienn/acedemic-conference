@@ -20,7 +20,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>                        
 				  </button>
-				  <a class="navbar-brand" href="index.php">X CCC</a>
+				  <a class="navbar-brand" href="index.php">LOREM</a>
 				</div>
 				<div class="collapse navbar-collapse navbar-right" id="showNavbar">
 				  <ul class="nav navbar-nav">
@@ -51,13 +51,13 @@
 					<span class="bigx">X</span>
 				</div>
 				<div class="col-xs-5">
-					<a href="index.php"><h1>CRACOW<br>COGNITIVE&nbsp;SCIENCE<br>CONFERENCE</h1></a>
+					<a href="index.php"><h1>LOREM<br>IPSUM<br>CONFERENCE</h1></a>
 				</div>
 			</div>
 			<div class="row subtitle">
 				<div class="col-xs-7">
-					<h2>TECHNOLOGY</h2>
-					<p>12-13.05.2018</p>
+					<h2>CONSECTETUER</h2>
+					<p>01-02.01.2018</p>
 				</div>
 			</div>
 		</div>

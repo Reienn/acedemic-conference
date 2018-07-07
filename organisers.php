@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-	<?php $title = "Organisers - X Cracow Cognitive Science Conference"; include 'up.php';?>
+	<?php $title = "Organisers - X Lorem Ipsum Conference"; include 'up.php';?>
 	
 		<div class="container-fluid text-center people" id="organising-committee">
 			<h2>ORGANISING COMMITTEE</h2><br>

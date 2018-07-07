@@ -90,9 +90,9 @@
 		</div>
 		<footer class="container-fluid text-center">
 			<h2>Contact</h2>
-			<p>konf.kognitywistyczna@gmail.com</p>
+			<p>lorem.ipsum@mail.com</p>
 			<a href="#" class="fa fa-facebook-official"></a><br><br>
-			<p>© 2018 CRACOW COGNITIVE SCIENCE CONFERENCE</p>
+			<p>LOREM IPSUM CONFERENCE</p>
 		</footer>
 		<button class="btn btn-link" id="upButton"><a href="#top" title="Do góry"><span class="glyphicon glyphicon-chevron-up"></span></a></button>
 		<script>
