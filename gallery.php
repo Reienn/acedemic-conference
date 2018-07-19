@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-	<?php $title = "Gallery - X Lorem Ipsum Conference"; include 'up.php';?>
+	<?php $title = "Gallery - X Lorem Ipsum Conference"; include 'templates/up.php';?>
 	
 		<div class="container-fluid text-center" id="gallery">
 			<h2>GALLERY</h2><br>
@@ -10,5 +10,5 @@
 			</div>
 		</div>
 	
-	<?php include 'bottom.php';?>
+	<?php include 'templates/bottom.php';?>
 </html>

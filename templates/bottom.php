@@ -95,36 +95,6 @@
 			<p>LOREM IPSUM CONFERENCE</p>
 		</footer>
 		<button class="btn btn-link" id="upButton"><a href="#top" title="Do góry"><span class="glyphicon glyphicon-chevron-up"></span></a></button>
-		<script>
-			$(document).ready(function(){
-				
-				//smooth scroll
-				$("a").on('click', function(event) {
-					if (this.hash !== "") {
-						//event.preventDefault();
-						var hash = this.hash;
-						$('html, body').animate({
-							scrollTop: $(hash).offset().top
-						}, 800, function(){
-						window.location.hash = hash;
-						});
-					}
-				});
-				
-				//well slide
-				$(window).scroll(function() {
-				  $(".well").each(function(){
-					var pos = $(this).offset().top;
-
-					var winTop = $(window).scrollTop();
-					if (pos < winTop + 600) {
-					  $(this).addClass("slide");
-					}
-				  });
-				});
-				
-				
-			});
-		</script>
+		<script src="script.js"></script>
 	</body>
 </html>

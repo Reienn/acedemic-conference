@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-	<?php $title = "X Lorem Ipsum Conference"; include 'up.php';?>
+	<?php $title = "X Lorem Ipsum Conference"; include 'templates/up.php';?>
 	
 		<div class="container-fluid" id="start">
 			<div class="row">
@@ -16,10 +16,7 @@
 		</div>
 		
 		<div class="container-fluid text-center withlogo" id="panels">
-			
-			
-			
-			
+					
 			<div id="myCarousel" class="carousel slide" data-ride="carousel">
 			  <br><h2>PANELS</h2><br><!-- Indicators -->
 			  <ol class="carousel-indicators">
@@ -95,14 +92,7 @@
 				<span class="sr-only">Next</span>
 			  </a>
 			</div>
-			
-			
-			
-			
-			
-			
-			
-			
+	
 		</div>
 		
 		<div class="container-fluid text-center people" id="guests">
@@ -142,5 +132,5 @@
 			</div>
 		</div>
 	
-	﻿<?php include 'bottom.php';?>
+	﻿<?php include 'templates/bottom.php';?>
 </html>

@@ -1,0 +1,74 @@
+#panels, #workshops, #scientific-committee{
+    background: $primary_dark;
+    h2{
+        color: $primary_light;
+    }
+}
+
+footer{
+    background: $primary_dark;
+    color: $primary_light;
+    .fa{
+        font-size: 40px;
+        text-decoration: none;
+        color: $primary_light;
+        padding-bottom: 3%;
+        &:hover{
+            color: $light_blue;
+        }
+    }
+}
+
+#news{
+    h2, h3, h4{
+        text-align: center;
+    }
+    .newsy{
+        text-align: justify;
+	    padding: 0;
+    }
+    #newsdiv{
+        text-align: justify;
+        padding: 0 0 3% 0;
+    }
+    .info{
+        font-style: italic;
+    }
+    form #comment{
+        overflow: hidden;
+    }
+}
+
+#faq{
+    h4{
+        text-align: center;
+    }
+    .newsy{
+        text-align: justify;
+        padding: 0;
+    }
+}
+
+.withlogo{
+    img{
+        margin: 2%;
+        object-fit: contain;
+        max-height: 130px;
+        width: auto;
+    }
+    .glyphicon{
+        font-size: 50px;
+        color: $primary_navy;
+    }
+}
+
+#start .glyphicon{
+	font-size: 150px;
+	color: $primary_navy;
+	margin: 10% 0;
+}
+
+.people .glyphicon{
+	font-size: 100px;
+	color: $primary_navy;
+}

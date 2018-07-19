@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-	<?php $title = "Program - X Lorem Ipsum Conference"; include 'up.php';?>
+	<?php $title = "Program - X Lorem Ipsum Conference"; include 'templates/up.php';?>
 	
 		<div class="container-fluid text-center" id="program">
 			<h2>PROGRAM</h2><br>
@@ -80,5 +80,5 @@
 			</div>
 		</div>
 	
-	<?php include 'bottom.php';?>
+	<?php include 'templates/bottom.php';?>
 </html>

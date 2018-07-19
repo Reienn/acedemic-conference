@@ -1,0 +1,58 @@
+.jumbotron{ 
+    color: $primary_light;
+	font-family: $decor_font;
+	background-color: $primary_dark;
+	background-image: url("../assets/bg3.svg"), url("../assets/bg2.png"), url("../assets/bg1.svg");
+	background-repeat: no-repeat, no-repeat, no-repeat;
+	background-position: center bottom, right top, center bottom;
+	background-size: cover, contain, cover;
+	background-attachment: fixed, scroll, fixed;
+    padding: 8%;
+    p{
+        font-size: 2.5em;
+        font-size: 3vw;
+        @media screen and (max-width: 768px) {
+            font-size: 1.5em;
+        }
+    }
+    h1{
+        font-size: 4em;
+        font-size: 4vw;
+        color: $primary_light;
+        @media screen and (max-width: 768px) {
+            font-size: 2em;
+		    padding: 0 0 0 5px;
+        }
+    }
+    h2{
+        font-size: 4em;
+        font-size: 4vw;
+        color: $light_navy;
+        @media screen and (max-width: 768px) {
+            font-size: 2em;
+        }
+    }
+    .col-xs-2{
+        padding-right: 0;
+    }
+    .col-xs-5{
+        @media screen and (max-width: 768px) {
+            padding-left: 10px; 
+        }
+    }
+    .bigx{
+        font-size: 16em;
+        font-size: 16vw;
+        line-height: 100%;
+        @media screen and (max-width: 768px) {
+            font-size: 7.5em;
+		    line-height: 120%;
+        }
+    }
+    .subtitle{
+        padding: 0 0 0 5%;
+        @media screen and (max-width: 768px) {
+            padding: 0 0 0 3%;
+        }
+    }
+}

@@ -1,0 +1,33 @@
+.carousel {
+    .carousel-indicators {
+        li {
+            border-color: $primary_navy;
+            &.active {
+                background-color: $primary_navy;
+            }
+        }
+    }
+    .item {
+        background: $primary_light;
+        padding: 5% 10% 10% 10%;
+        p{
+            text-align: justify;
+        }
+    }
+    .carousel-control.right, .carousel-control.left {
+        background-image: none;
+        color: $primary_navy;
+        .glyphicon {
+            top: 0;
+            margin-top: 150px;
+        }
+    }    
+}
+
+.slide {
+    animation-name: slide;
+    -webkit-animation-name: slide; 
+    animation-duration: 1s; 
+    -webkit-animation-duration: 1s;
+    visibility: visible; 
+}

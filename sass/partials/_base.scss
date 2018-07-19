@@ -1,0 +1,41 @@
+body{
+    background: $primary_light;
+    color: $primary_color;
+}
+
+.well{
+	background: $primary_light;
+	height: 100%;
+    margin: 5% 0;
+    visibility:hidden; 
+}
+
+.container-fluid{
+    padding: 4% 10%;
+}
+
+.row.is-flex{
+    display: flex;
+    flex-wrap: wrap;
+    & > [class*='col-'] {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+#upButton{
+    position: fixed;	
+    bottom: 20px;
+    right: 30px;
+    z-index: 100;
+}
+
+th{
+    background: $primary_color;
+    color: $primary_light;
+    text-align: center;
+}
+td{
+	min-width: 110px;
+	text-align: left;
+}

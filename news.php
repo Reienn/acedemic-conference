@@ -6,12 +6,12 @@
 
 <!DOCTYPE html>
 <html>
-	<?php $title = "NEWS - X Lorem Ipsum Conference"; include 'up.php'; ?>
+	<?php $title = "NEWS - X Lorem Ipsum Conference"; include 'templates/up.php'; ?>
 	
 		<div class="container-fluid" id="news">
 			<?php 
 			//lista aktualnosci
-			require_once 'engine.php';		
+			require_once 'controllers/engine.php';		
 			$aktualnosci = new aktualnosci();
 			$lista = $aktualnosci->listing('aktualnosci');
 			
@@ -91,5 +91,5 @@
 		
 		
 	
-	<?php include 'bottom.php';?>
+	<?php include 'templates/bottom.php';?>
 </html>
